@@ -34,7 +34,7 @@ export default function Timer ({selected, finishTask}:Props) {
 
     return (
         <div className={style.cronometro}>
-            <p className={style.titulo}>Escolha um card e inicie o cronômetro</p>
+            <p className={style.titulo}>Select a task and start</p>
             <div className={style.relogioWrapper}>
                 <Clock time={time} />
             </div>

@@ -12,7 +12,7 @@ function TaskList({tasks, selectTask}: Props) {
     return (
         <aside className={style.listaTarefas}>
             <h2>
-             Estudos do dia
+             Daily tasks
             </h2>
             <ul>
                 {tasks.map((item, index)=> {
