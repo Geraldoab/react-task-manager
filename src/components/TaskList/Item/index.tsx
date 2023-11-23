@@ -23,7 +23,7 @@ export default function Item({
                 ${isCompleted ? style.itemCompletado : ''} 
                 `
             } 
-            onClick={() =>selectTask({
+            onClick={() => !isCompleted && selectTask({
                 name,
                 duration,
                 isSelected,
